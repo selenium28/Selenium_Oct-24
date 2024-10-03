@@ -40,6 +40,9 @@ public class Locators {
 		
 //		Preceding xpath
 //		//*[@name = 'wpforms[fields][1]']//preceding::input[2]
+		
+//		And OR
+//		
 
 	}
 
