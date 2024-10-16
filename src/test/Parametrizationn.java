@@ -3,20 +3,20 @@ package test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Parametrizationn {
 	WebDriver driver;
-	String browser = "firefox";
+//	String browser = "firefox";
 	
+	@Parameters("browser")
 	@Test 
-	public void param(String param) {
+	public void param(String para) {
 		
-		if (browser.equals("chrome")) {
+		if (para.equals("chrome")) {
 			driver = new ChromeDriver();
-		} else if (browser.equals("firefox")) {
-			
-		}{
+		} else if (para.equals("firefox")) {
 			driver = new FirefoxDriver();
 		}
 		
