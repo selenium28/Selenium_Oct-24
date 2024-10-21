@@ -1,61 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T20:27:03 IST" name="Default suite" finished-at="2024-10-16T20:29:25 IST" duration-ms="142476">
+  <suite started-at="2024-10-21T21:12:43 IST" name="Suite" finished-at="2024-10-21T21:13:28 IST" duration-ms="44574">
     <groups>
     </groups>
-    <test started-at="2024-10-16T20:27:03 IST" name="Default test" finished-at="2024-10-16T20:29:25 IST" duration-ms="142476">
-      <class name="dataprovider.DataProviderClass">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.DataProviderClass@6af93788]" started-at="2024-10-16T20:27:03 IST" name="login" data-provider="dataProvider" finished-at="2024-10-16T20:27:51 IST" duration-ms="48524" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-10-21T21:12:43 IST" name="Test" finished-at="2024-10-21T21:13:28 IST" duration-ms="44574">
+      <class name="parallel.DataP">
+        <test-method signature="first()[pri:0, instance:parallel.DataP@4386f16]" started-at="2024-10-21T21:12:43 IST" name="first" finished-at="2024-10-21T21:13:25 IST" duration-ms="41632" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.DataProviderClass@6af93788]" started-at="2024-10-16T20:27:51 IST" name="login" data-provider="dataProvider" finished-at="2024-10-16T20:28:37 IST" duration-ms="45858" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- first -->
+      </class> <!-- parallel.DataP -->
+      <class name="parallel.DataP2">
+        <test-method signature="first()[pri:0, instance:parallel.DataP2@149e0f5d]" started-at="2024-10-21T21:12:43 IST" name="first" finished-at="2024-10-21T21:13:28 IST" duration-ms="44541" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider.DataProviderClass@6af93788]" started-at="2024-10-16T20:28:37 IST" name="login" data-provider="dataProvider" finished-at="2024-10-16T20:29:25 IST" duration-ms="48020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5432]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- dataprovider.DataProviderClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- first -->
+      </class> <!-- parallel.DataP2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
